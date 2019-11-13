@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: const ... = require("...")
+# uuid: rqr
+# key: rqr
+# --
+const ${2:$1} = require("${1:fs}")`(if (eolp) ";")`
+

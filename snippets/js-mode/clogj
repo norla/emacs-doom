@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: console log json
+# uuid: clj
+# key: clj
+# --
+console.log("- - - DEBUG ${2:$1}", JSON.stringify(${1:}, null, 2));
+$0
