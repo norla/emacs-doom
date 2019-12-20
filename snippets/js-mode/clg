@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: console log
+# uuid: clg
+# key: clg
+# --
+console.log("- - - DEBUG $1", $1);
+$0

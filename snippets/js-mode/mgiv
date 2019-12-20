@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: mocha cakes given
+# key: mgiv
+# condition: t
+# --
+Given("$1", ($2) => {
+  $0
+});

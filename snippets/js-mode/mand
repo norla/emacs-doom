@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: mocha cakes and
+# key: mand
+# condition: t
+# --
+And("$1", ($2) => {
+  $0
+});

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: mfeat
+# key: mfeat
+# condition: t
+# --
+Feature("$1", ($2) => {
+  $0
+});

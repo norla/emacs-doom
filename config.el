@@ -14,3 +14,9 @@
 ;; This variable is borken outside the terminal if you have different
 ;; keyboard layout and input language which causes problems with projectile.
 (setenv "LANG" "sv_SE.UTF-8")
+
+;; Refresh magit after save
+(add-hook 'after-save-hook 'magit-after-save-refresh-status t)
+(setq magit-save-repository-buffers t)
+(global-evil-surround-mode 1)
+(setq-default evil-escape-key-sequence "jj")

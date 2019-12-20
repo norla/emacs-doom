@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: mocha cakes but
+# key: mbut
+# condition: t
+# --
+But("$1", ($2) => {
+  $0
+});

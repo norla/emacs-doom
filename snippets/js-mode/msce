@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: mocha cakes scenarion
+# key: msce
+# condition: t
+# --
+Scenario("$1", ($2) => {
+  $0
+});

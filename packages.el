@@ -9,3 +9,6 @@
 (package! exec-path-from-shell)
 (package! focus-autosave-mode)
 (package! terminal-focus-reporting)
+(package! format-all)
+(package! evil-surround)
+(package! evil-escape)
