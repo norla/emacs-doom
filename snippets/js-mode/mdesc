@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: mocha describe
+# key: mdesc
+# condition: t
+# --
+describe("$1", () => {
+  $0
+});

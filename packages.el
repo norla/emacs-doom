@@ -12,3 +12,6 @@
 (package! format-all)
 (package! evil-surround)
 (package! evil-escape)
+(package! evil-quickscope)
+(package! evil-easymotion)
+(package! format-all)

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: mocha it
+# key: mit
+# condition: t
+# --
+it("$1", () => {
+  $0
+});
