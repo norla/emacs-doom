@@ -22,11 +22,11 @@
 
 ;; Refresh magit after save
 (add-hook 'after-save-hook 'magit-after-save-refresh-status t)
-(setq magit-save-repository-buffers t)
+(setq magit-save-repository-buffers 'dontask)
 (setq magit-list-refs-sortby "creeatordate")
 
 (global-evil-surround-mode 1)
-(setq-default evil-escape-key-sequence "kj")
+(setq-default evil-escape-key-sequence "jj")
 (global-evil-quickscope-always-mode 1)
 (evil-snipe-override-mode 1)
 (setq evil-snipe-override-evil-repeat-keys t)
