@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: es bool query
+# key: bool
+# condition: t
+# --
+"bool" : {
+  "must" : [{$0}],
+  "must_not" : [{}],
+  "should" : [{}]
+}

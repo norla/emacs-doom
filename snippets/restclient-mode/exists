@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: es exists query
+# key: exists
+# condition: t
+# --
+"exists": {"field": "$1"}
+$0

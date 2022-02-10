@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: localhost es
+# key: lch
+# condition: t
+# --
+http://localhost:9200$0

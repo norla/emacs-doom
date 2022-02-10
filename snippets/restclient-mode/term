@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: term query
+# key: term
+# condition: t
+# --
+  "term" : {"$1": "$2"}

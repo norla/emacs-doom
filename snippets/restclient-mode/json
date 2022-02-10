@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: send json
+# key: json
+# condition: t
+# --
+
+#
+${1:POST} ${2:http}://$3
+Content-Type: application/json
+
+{
+  $0
+}
