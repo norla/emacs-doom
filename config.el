@@ -67,6 +67,7 @@
 
 ;; otherwise emacs wont stick to its virtual window
 (menu-bar-mode t)
+
 (global-unset-key (kbd "C-e"))
 (use-package doom-themes
   :custom-face ; for solarized dark
@@ -80,9 +81,9 @@
   (setq doom-themes-enable-bold nil)
   (load-theme 'doom-one t))
 
-(setq format-all-debug 'true)
+;; (setq format-all-debug 'true)
 (set-formatter! 'eslint  "eslint_d --fix-to-stdout --stdin")
-(set-formatter! 'prettier-js  "npx prettier --stdin-filepath foo.js")
+(set-formatter! 'prettier-js  "prettier --stdin-filepath foo.js")
 (setq-hook! 'rjsx-mode-hook +format-with (choose-formatter))
 (defun choose-formatter ()
   (add-hook! 'before-save-hook #'+format/buffer)
