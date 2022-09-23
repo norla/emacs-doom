@@ -16,5 +16,9 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Fira Code" :foundry "nil" :slant normal :weight normal :height 141 :width normal))))
  '(highlight ((t (:background "#073642"))))
- '(highlight-symbol-face ((t (:background "#073642")))))
+ '(highlight-symbol-face ((t (:background "#073642"))))
+ '(hl-line ((t (:background "gray30"))))
+ '(line-number ((t (:foreground "dim gray"))))
+ '(line-number-current-line (( t (:foreground "white"))))
+ )
 (setq neo-window-fixed-size nil)

@@ -81,7 +81,7 @@
   (setq doom-themes-enable-bold nil)
   (load-theme 'doom-one t))
 
-;; (setq format-all-debug 'true)
+(setq format-all-debug 'true)
 (set-formatter! 'eslint  "eslint_d --fix-to-stdout --stdin")
 (set-formatter! 'prettier-js  "prettier --stdin-filepath foo.js")
 (setq-hook! 'rjsx-mode-hook +format-with (choose-formatter))
